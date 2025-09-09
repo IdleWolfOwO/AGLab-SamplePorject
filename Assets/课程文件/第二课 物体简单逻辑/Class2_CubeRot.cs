@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Class2_CubeRot : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private GameObject Cube;
+    private void Awake()
     {
-        
+        Cube = this.gameObject;
     }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        Cube.transform.eulerAngles += new Vector3(0, 20f, 0) * Time.deltaTime;
     }
 }

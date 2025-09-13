@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Class2_CubeRot_answer : MonoBehaviour
+public class Class2_answer : MonoBehaviour
 {
     // 速率控制
     // 使用 Public 公开的基础变量可以在检查器面板上控制

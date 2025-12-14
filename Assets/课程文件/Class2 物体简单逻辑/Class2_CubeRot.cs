@@ -21,6 +21,6 @@ public class Class2_CubeRot : MonoBehaviour
         // 在每一帧旋转物体
         // Time.deltaTime => 距离上一帧经过的时间
         // 每秒旋转 * 这两帧经过多少秒（Time.deltaTime） => 这一帧要转多大
-        Cube.transform.eulerAngles += new Vector3(0, 20f, 0) * Time.deltaTime;
+        Cube.transform.eulerAngles += new Vector3(0, 20f, 0) * Time.fixedDeltaTime;
     }
 }

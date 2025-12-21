@@ -314,6 +314,7 @@ GameObject:
   - component: {fileID: 487340464}
   - component: {fileID: 487340467}
   - component: {fileID: 487340466}
+  - component: {fileID: 487340468}
   m_Layer: 0
   m_Name: Chara
   m_TagString: Untagged
@@ -436,11 +437,24 @@ MonoBehaviour:
   - {fileID: 1604532736}
   - {fileID: 244168448}
   m_Bounds:
-    m_Center: {x: -0.19910479, y: 2.0787156, z: 0}
-    m_Extent: {x: 3.176766, y: 5.466567, z: 0}
+    m_Center: {x: -0.04327011, y: 2.0787156, z: 0}
+    m_Extent: {x: 3.3326006, y: 5.466567, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
+--- !u!114 &487340468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487340463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d542e6c87761906468fe5397f0665710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!1 &627203674
 GameObject:
   m_ObjectHideFlags: 0
